@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 59127194}
   - component: {fileID: 59127193}
   - component: {fileID: 59127192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire Post (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 140564758}
   - component: {fileID: 140564757}
   - component: {fileID: 140564756}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 145053723}
   - component: {fileID: 145053722}
   - component: {fileID: 145053721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -632,7 +632,7 @@ GameObject:
   - component: {fileID: 255804069}
   - component: {fileID: 255804068}
   - component: {fileID: 255804067}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 495791691}
   - component: {fileID: 495791690}
   - component: {fileID: 495791694}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 508123674}
   - component: {fileID: 508123673}
   - component: {fileID: 508123672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire post (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 627322281}
   - component: {fileID: 627322280}
   - component: {fileID: 627322279}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1338,12 +1338,12 @@ PrefabInstance:
     - target: {fileID: 3494077666127455472, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000021483564
+      value: -0.0000000021483564
       objectReference: {fileID: 0}
     - target: {fileID: 3494077666127455472, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.02446746e-10
+      value: 1.02446746e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3557513479516499989, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
@@ -1747,7 +1747,6 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"orientation","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"moveDirection","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"flatVelocityXZ","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"lastMoveDirection","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerCollider","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerObjVisualModel","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"moveSpeed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -1879,18 +1878,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7819511162442470323, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99886495
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819511162442470323, guid: e951be7c5d280c44189c9fd58a69e615,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.04763198
       objectReference: {fileID: 0}
     - target: {fileID: 7819511162442470323, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000021483566
+      value: -0.0000000021483566
       objectReference: {fileID: 0}
     - target: {fileID: 7819511162442470323, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.02446746e-10
+      value: 1.02446746e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7821371513660764993, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
@@ -1966,6 +1970,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 28.930376
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142243350512143397, guid: e951be7c5d280c44189c9fd58a69e615,
+        type: 3}
+      propertyPath: m_SmoothingTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142243350512143397, guid: e951be7c5d280c44189c9fd58a69e615,
+        type: 3}
+      propertyPath: m_DampingWhenOccluded
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142243350512143397, guid: e951be7c5d280c44189c9fd58a69e615,
+        type: 3}
+      propertyPath: m_OptimalTargetDistance
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8284383965486579709, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
@@ -2060,12 +2079,12 @@ PrefabInstance:
     - target: {fileID: 8734098012287198714, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1387012
+      value: 0.13870122
       objectReference: {fileID: 0}
     - target: {fileID: 8734098012287198714, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1e-45
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 8734098012287198714, guid: e951be7c5d280c44189c9fd58a69e615,
         type: 3}
@@ -2120,7 +2139,7 @@ GameObject:
   - component: {fileID: 663739133}
   - component: {fileID: 663739132}
   - component: {fileID: 663739136}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2246,7 +2265,7 @@ GameObject:
   - component: {fileID: 708237797}
   - component: {fileID: 708237796}
   - component: {fileID: 708237795}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2351,7 +2370,7 @@ GameObject:
   - component: {fileID: 860400591}
   - component: {fileID: 860400590}
   - component: {fileID: 860400589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire post
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2456,7 +2475,7 @@ GameObject:
   - component: {fileID: 917605060}
   - component: {fileID: 917605059}
   - component: {fileID: 917605058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2561,7 +2580,7 @@ GameObject:
   - component: {fileID: 939956170}
   - component: {fileID: 939956169}
   - component: {fileID: 939956168}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2666,7 +2685,7 @@ GameObject:
   - component: {fileID: 981511627}
   - component: {fileID: 981511626}
   - component: {fileID: 981511625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2779,7 +2798,7 @@ GameObject:
   - component: {fileID: 1150057508}
   - component: {fileID: 1150057507}
   - component: {fileID: 1150057506}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire Post
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2884,7 +2903,7 @@ GameObject:
   - component: {fileID: 1182905936}
   - component: {fileID: 1182905935}
   - component: {fileID: 1182905934}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2989,7 +3008,7 @@ GameObject:
   - component: {fileID: 1411704066}
   - component: {fileID: 1411704065}
   - component: {fileID: 1411704064}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3094,7 +3113,7 @@ GameObject:
   - component: {fileID: 1429318949}
   - component: {fileID: 1429318948}
   - component: {fileID: 1429318947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire post (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3304,7 +3323,7 @@ GameObject:
   - component: {fileID: 1528254229}
   - component: {fileID: 1528254228}
   - component: {fileID: 1528254227}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3409,7 +3428,7 @@ GameObject:
   - component: {fileID: 1644726558}
   - component: {fileID: 1644726557}
   - component: {fileID: 1644726556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire Post (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3514,7 +3533,7 @@ GameObject:
   - component: {fileID: 1701238939}
   - component: {fileID: 1701238938}
   - component: {fileID: 1701238937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3619,7 +3638,7 @@ GameObject:
   - component: {fileID: 1965048441}
   - component: {fileID: 1965048440}
   - component: {fileID: 1965048439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3726,7 +3745,7 @@ GameObject:
   - component: {fileID: 2035334587}
   - component: {fileID: 2035334586}
   - component: {fileID: 2035334585}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Mock Building (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
