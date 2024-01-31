@@ -5,12 +5,16 @@ using UnityEngine.Splines;
 
 public class SplineRider : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private PlayerInput playerInput = null;
     [SerializeField] private InputActionReference inputRide = null;
     [SerializeField] private InputActionReference inputRelease = null;
+    [SerializeField] private GameObject MoveDirectionOfSplineRider;
 
+    [Header("Values to set")]
     [SerializeField] private LayerMask detectMask = default;
     [SerializeField] private float detectRadius = 0.5f;
+    [SerializeField] private float jumpForceWire = 8f;
     [SerializeField] private Vector3 detectCenter = Vector3.zero;
     [SerializeField] private Color detectedColor = Color.cyan;
     [SerializeField] private Color undetectedColor = Color.red;
@@ -51,6 +55,7 @@ public class SplineRider : MonoBehaviour
         ResetBoolFlips();
         DetectRideInput();
         DetectReleaseInput();
+        CheckEnd();
     }
 
     private void FixedUpdate()
@@ -112,7 +117,7 @@ public class SplineRider : MonoBehaviour
         if (!IsRiding) return;
         if (inputActionRelease.WasPressedThisFrame())
         {
-            ReleaseFromSpline();
+            JumpReleaseFromSpline();
         }
     }
 
@@ -145,8 +150,8 @@ public class SplineRider : MonoBehaviour
         //reverse flow?
         bool reversed = false;
         var dir = SplineUtility.EvaluateTangent(spline, rideStartNormTime);
-        var diff = math.dot(dir, (float3)transform.forward);
-        Debug.Log(diff);
+        //see if the player s move direction is facing the same way
+        var diff = math.dot(dir, (float3)MoveDirectionOfSplineRider.transform.forward);
         if (diff < 0)
         {
             reversed = true;
@@ -186,5 +191,39 @@ public class SplineRider : MonoBehaviour
             rb.isKinematic = false;
         IsRiding = false;
         ExitedSplineThisFrame = true;
+
+        //Invoke("ResetRotationOfRider", 0.2f);
+    }
+
+    private void CheckEnd()
+    {
+        if (!IsRiding) return;
+        var perc = splineAnimate.NormalizedTime;
+        if (perc >= 1)
+        {
+            ReleaseFromSpline();
+        }
+    }
+
+    private void ResetRotationOfRider() {
+        transform.rotation = Quaternion.identity;
+        transform.localRotation = Quaternion.identity;
+    }
+
+    private void JumpReleaseFromSpline()
+    {
+        if (!IsRiding) return;
+        splineAnimate = null;
+        splineAnimateTrans = null;
+        splineContainer = null;
+        spline = null;
+        if (rb)
+            rb.isKinematic = false;
+        IsRiding = false;
+        ExitedSplineThisFrame = true;
+        if (rb)
+            //rb.velocity = new Vector3(0, jumpForceWire, 0);
+            rb.AddForce(Vector3.up* jumpForceWire, ForceMode.Impulse);
+        //Invoke("ResetRotationOfRider", 0.2f);
     }
 }

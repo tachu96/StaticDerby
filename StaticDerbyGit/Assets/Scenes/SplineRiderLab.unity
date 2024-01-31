@@ -155,6 +155,37 @@ Transform:
   - {fileID: 1338708807}
   m_Father: {fileID: 1340621219}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &118944492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 118944493}
+  m_Layer: 0
+  m_Name: LastMoveDirectionProxy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &118944493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118944492}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6904384577874054544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &699253228
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &1340621218
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -403,10 +434,12 @@ MonoBehaviour:
     type: 3}
   inputRelease: {fileID: -4822467271607842403, guid: 31ad47973412fb948bb89f49f9fc8105,
     type: 3}
+  MoveDirectionOfSplineRider: {fileID: 0}
   detectMask:
     serializedVersion: 2
     m_Bits: 16
   detectRadius: 0.5
+  jumpForceWire: 8
   detectCenter: {x: 0, y: 0, z: 0}
   detectedColor: {r: 0, g: 1, b: 1, a: 1}
   undetectedColor: {r: 1, g: 0, b: 0, a: 1}
@@ -453,7 +486,7 @@ GameObject:
   - component: {fileID: 1421305693}
   - component: {fileID: 1421305692}
   - component: {fileID: 1421305691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602497587}
   - component: {fileID: 1602497588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SplineAnimate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +649,7 @@ GameObject:
   - component: {fileID: 1985784351}
   - component: {fileID: 1985784350}
   - component: {fileID: 1985784356}
-  m_Layer: 4
+  m_Layer: 8
   m_Name: SplineContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -865,7 +898,7 @@ Transform:
   m_GameObject: {fileID: 1985784349}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.97, y: -0.00000023841858, z: -2.92}
+  m_LocalPosition: {x: 1.25, y: 0.25, z: -4.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2381,7 +2414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838997261467153639}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.047631975, y: -0.0000000021483564, z: 1.02446746e-10, w: 0.99886495}
+  m_LocalRotation: {x: 0.047631975, y: -0.0000000022303186, z: 1.06355195e-10, w: 0.99886495}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3317,7 +3350,7 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
@@ -3856,7 +3889,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6736970273853617762}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.41384304, z: 0, w: 0.91034824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3864,6 +3897,7 @@ Transform:
   - {fileID: 8838209319761201020}
   - {fileID: 5738164917625881143}
   - {fileID: 4916882487068029914}
+  - {fileID: 118944493}
   m_Father: {fileID: 1540608983398133262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6930374641369378513
@@ -3936,13 +3970,14 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"grounded","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"readyToJump","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isJumping","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Climbing","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ridingWireSpline","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LastMoveDirectionProxy","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 4916882487068029914}
     - {fileID: 5378550251342781674}
     - {fileID: 4033428773134741033}
+    - {fileID: 118944492}
 --- !u!4 &7072625636122223347
 Transform:
   m_ObjectHideFlags: 0
@@ -4247,7 +4282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5725759654878786245}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04763198, y: -0.0000000021483566, z: 1.02446746e-10, w: 0.99886495}
+  m_LocalRotation: {x: 0.04763198, y: -0.0000000022303186, z: 1.0635521e-10, w: 0.99886495}
   m_LocalPosition: {x: 0, y: 2, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4480,7 +4515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5363180989294124776}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09252101, y: -0.000000017659856, z: 0.0000000016409462, w: 0.99571073}
+  m_LocalRotation: {x: 0.09252101, y: -0.000000018333605, z: 0.0000000017035506, w: 0.99571073}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4611,8 +4646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41377763653635163}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.13870119, y: 0.0000000085200345, z: -0.0000000011932727,
-    w: 0.99033433}
+  m_LocalRotation: {x: 0.13870122, y: -1e-45, z: -0, w: 0.99033433}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4668,10 +4702,12 @@ MonoBehaviour:
     type: 3}
   inputRelease: {fileID: 5546102036726148387, guid: 0aab6a47564e8fa409a9f0a64b30caae,
     type: 3}
+  MoveDirectionOfSplineRider: {fileID: 118944492}
   detectMask:
     serializedVersion: 2
     m_Bits: 256
   detectRadius: 1.25
+  jumpForceWire: 8
   detectCenter: {x: 0, y: -0.21, z: 0}
   detectedColor: {r: 0, g: 1, b: 1, a: 1}
   undetectedColor: {r: 1, g: 0, b: 0, a: 1}
