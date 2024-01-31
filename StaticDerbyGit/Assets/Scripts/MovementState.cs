@@ -1,5 +1,6 @@
 public enum MovementState
 {
     walking,
-    air
+    air,
+    wire
 }
