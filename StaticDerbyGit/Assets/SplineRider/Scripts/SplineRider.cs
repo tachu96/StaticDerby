@@ -207,7 +207,7 @@ public class SplineRider : MonoBehaviour
 
     private void ResetRotationOfRider() {
         transform.rotation = Quaternion.identity;
-        transform.localRotation = Quaternion.identity;
+        //transform.localRotation = Quaternion.identity;
     }
 
     private void JumpReleaseFromSpline()
@@ -222,8 +222,7 @@ public class SplineRider : MonoBehaviour
         IsRiding = false;
         ExitedSplineThisFrame = true;
         if (rb)
-            //rb.velocity = new Vector3(0, jumpForceWire, 0);
             rb.AddForce(Vector3.up* jumpForceWire, ForceMode.Impulse);
-        //Invoke("ResetRotationOfRider", 0.2f);
+        Invoke("ResetRotationOfRider", 0.2f);
     }
 }
