@@ -24,13 +24,13 @@ public class SplineRider : MonoBehaviour
     public bool IsRiding { get; private set; }
     public bool IsDetected { get; private set; }
 
-    private Collider[] detectCols = new Collider[1]; 
+    private Collider[] detectCols = new Collider[1];
     private SplineRideable splineRideable = default;
     private SplineAnimate splineAnimate = default;
     private Transform splineAnimateTrans = default;
     private SplineContainer splineContainer = default;
     private Spline spline = default;
-    
+
     private float3 rideTargetPos;
     private float3 rideStartPos;
     private float rideStartNormTime;
@@ -69,7 +69,7 @@ public class SplineRider : MonoBehaviour
     }
 
     private void OnDrawGizmos()
-    {  
+    {
         var color = IsDetected ? detectedColor : undetectedColor;
         Gizmos.color = color;
         var pos = transform.TransformPoint(detectCenter);
@@ -161,7 +161,7 @@ public class SplineRider : MonoBehaviour
         //recalculate if reversed
         if (reversed)
             CalculateSplinePosition();
-            
+
         //start flow animation
         splineAnimate.NormalizedTime = rideStartNormTime;
         splineAnimate.Play();
@@ -191,8 +191,10 @@ public class SplineRider : MonoBehaviour
             rb.isKinematic = false;
         IsRiding = false;
         ExitedSplineThisFrame = true;
-
-        //Invoke("ResetRotationOfRider", 0.2f);
+        var rotY = transform.eulerAngles.y;
+        var targetRot = Quaternion.Euler(0, rotY, 0);
+        transform.rotation = targetRot;
+        Debug.Log(transform.rotation+" and target rot is "+targetRot);
     }
 
     private void CheckEnd()
@@ -203,11 +205,6 @@ public class SplineRider : MonoBehaviour
         {
             ReleaseFromSpline();
         }
-    }
-
-    private void ResetRotationOfRider() {
-        transform.rotation = Quaternion.identity;
-        //transform.localRotation = Quaternion.identity;
     }
 
     private void JumpReleaseFromSpline()
@@ -222,7 +219,10 @@ public class SplineRider : MonoBehaviour
         IsRiding = false;
         ExitedSplineThisFrame = true;
         if (rb)
-            rb.AddForce(Vector3.up* jumpForceWire, ForceMode.Impulse);
-        Invoke("ResetRotationOfRider", 0.2f);
+            rb.AddForce(Vector3.up * jumpForceWire, ForceMode.Impulse);
+        var rotY = transform.eulerAngles.y;
+        var targetRot = Quaternion.Euler(0, rotY, 0);
+        transform.rotation = targetRot;
+        Debug.Log(transform.rotation + " and target rot is " + targetRot);
     }
 }
