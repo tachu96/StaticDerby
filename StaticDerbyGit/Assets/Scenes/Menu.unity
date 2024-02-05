@@ -410,6 +410,28 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1253854309}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &318493228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7447636821174696058, guid: e5426ebef8684fb4e929522cb6aeeced,
+    type: 3}
+  m_PrefabInstance: {fileID: 1253854309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &318493235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318493228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: ce8cf6fa32b331346a5f09dcb931f72b, type: 2}
 --- !u!1 &328717680 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5279889384662019023, guid: cc3b8ecd885ed474c99d34acc9606a96,
@@ -569,14 +591,216 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 44279499865864895, guid: e5426ebef8684fb4e929522cb6aeeced,
         type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoadSceneAnimation","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SceneToLoad","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 44279499865864895, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 97674411}
+    - target: {fileID: 251469106089983892, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 251469106089983892, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 251469106089983892, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 126.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 251469106089983892, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1511735526919016684, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoadSceneAnimation","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SceneToLoad","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 1511735526919016684, guid: e5426ebef8684fb4e929522cb6aeeced,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 97674411}
+    - target: {fileID: 1536445907952584458, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: a31f8ec7508a5e843943601b643b02d2,
+        type: 2}
+    - target: {fileID: 1562229154961053012, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"SceneToLoad","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LoadSceneAnimation","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1562229154961053012, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1562229154961053012, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 97674411}
+    - target: {fileID: 1575475292490756916, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1575475292490756916, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1575475292490756916, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1575475292490756916, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759126972471897944, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759126972471897944, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759126972471897944, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 492.59998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759126972471897944, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089782803902702191, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089782803902702191, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089782803902702191, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089782803902702191, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169941357752473027, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169941357752473027, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169941357752473027, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 958.49994
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169941357752473027, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273059894647750300, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273059894647750300, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273059894647750300, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 126.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2273059894647750300, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2610038234992687201, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2610038234992687201, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2610038234992687201, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2610038234992687201, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3356847037000193691, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955059214556409603, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955059214556409603, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955059214556409603, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 803.19995
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955059214556409603, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
+      objectReference: {fileID: 0}
     - target: {fileID: 4067811093795677634, guid: e5426ebef8684fb4e929522cb6aeeced,
         type: 3}
       propertyPath: m_Pivot.x
@@ -677,11 +901,93 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5004921004289534769, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5004921004289534769, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5004921004289534769, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5004921004289534769, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366082892631642412, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438859130638962398, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511869111224759184, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511869111224759184, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511869111224759184, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511869111224759184, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661887717731112342, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoadSceneAnimation","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SceneToLoad","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 5661887717731112342, guid: e5426ebef8684fb4e929522cb6aeeced,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 97674411}
+    - target: {fileID: 5704741247009444529, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219238999656428663, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219238999656428663, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219238999656428663, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 182
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219238999656428663, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
+      objectReference: {fileID: 0}
     - target: {fileID: 6519458546441459788, guid: e5426ebef8684fb4e929522cb6aeeced,
         type: 3}
       propertyPath: m_Name
@@ -692,6 +998,58 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 97674411}
+    - target: {fileID: 8139837636574852908, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316861593547871676, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316861593547871676, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316861593547871676, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 647.89996
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316861593547871676, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440075109230780795, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440075109230780795, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440075109230780795, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 337.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440075109230780795, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444584208953394797, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoadSceneAnimation","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SceneToLoad","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8444584208953394797, guid: e5426ebef8684fb4e929522cb6aeeced,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -699,13 +1057,65 @@ PrefabInstance:
       objectReference: {fileID: 97674411}
     - target: {fileID: 8595750817815677208, guid: e5426ebef8684fb4e929522cb6aeeced,
         type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"LoadSceneAnimation","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SceneToLoad","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8595750817815677208, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 97674411}
-    m_RemovedComponents: []
+    - target: {fileID: 8989280875193143103, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8989280875193143103, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8989280875193143103, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 958
+      objectReference: {fileID: 0}
+    - target: {fileID: 8989280875193143103, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -458
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041462655287664582, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041462655287664582, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041462655287664582, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041462655287664582, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4213077379145205672, guid: e5426ebef8684fb4e929522cb6aeeced, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7447636821174696058, guid: e5426ebef8684fb4e929522cb6aeeced,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 318493235}
   m_SourcePrefab: {fileID: 100100000, guid: e5426ebef8684fb4e929522cb6aeeced, type: 3}
 --- !u!1 &1479672038 stripped
 GameObject:
@@ -735,7 +1145,7 @@ PrefabInstance:
     - target: {fileID: 117717675924753334, guid: 997c78f762db1d443802cc80b5a921a6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 117717675924753337, guid: 997c78f762db1d443802cc80b5a921a6,
         type: 3}
