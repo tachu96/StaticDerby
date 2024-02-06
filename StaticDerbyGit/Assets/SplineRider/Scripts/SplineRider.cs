@@ -39,6 +39,9 @@ public class SplineRider : MonoBehaviour
     private InputAction inputActionRide;
     private InputAction inputActionRelease;
 
+    private bool resettingRotation;
+    private float resetTimer;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -66,6 +69,7 @@ public class SplineRider : MonoBehaviour
     private void LateUpdate()
     {
         TickRiding();
+        ResetRotation();
     }
 
     private void OnDrawGizmos()
@@ -92,6 +96,21 @@ public class SplineRider : MonoBehaviour
         if (!IsRiding) return;
         transform.position = splineAnimateTrans.position;
         transform.rotation = splineAnimateTrans.rotation;
+    }
+
+    private void ResetRotation()
+    {
+        if (IsRiding) return;
+        if (!resettingRotation) return;
+
+        var rotY = transform.eulerAngles.y;
+        var targetRot = Quaternion.Euler(0, rotY, 0);
+        transform.rotation = targetRot;
+        resetTimer += Time.deltaTime;
+        if (resetTimer > 1) {
+            resettingRotation = false;
+            resetTimer = 0;
+        }
     }
 
     void DetectSplineRideable()
@@ -195,6 +214,7 @@ public class SplineRider : MonoBehaviour
         var targetRot = Quaternion.Euler(0, rotY, 0);
         transform.rotation = targetRot;
         Debug.Log(transform.rotation+" and target rot is "+targetRot);
+        resettingRotation = true;
     }
 
     private void CheckEnd()
@@ -224,5 +244,6 @@ public class SplineRider : MonoBehaviour
         var targetRot = Quaternion.Euler(0, rotY, 0);
         transform.rotation = targetRot;
         Debug.Log(transform.rotation + " and target rot is " + targetRot);
+        resettingRotation = true;
     }
 }
