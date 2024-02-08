@@ -213,7 +213,6 @@ public class SplineRider : MonoBehaviour
         var rotY = transform.eulerAngles.y;
         var targetRot = Quaternion.Euler(0, rotY, 0);
         transform.rotation = targetRot;
-        Debug.Log(transform.rotation+" and target rot is "+targetRot);
         resettingRotation = true;
     }
 
@@ -243,7 +242,6 @@ public class SplineRider : MonoBehaviour
         var rotY = transform.eulerAngles.y;
         var targetRot = Quaternion.Euler(0, rotY, 0);
         transform.rotation = targetRot;
-        Debug.Log(transform.rotation + " and target rot is " + targetRot);
         resettingRotation = true;
     }
 }
