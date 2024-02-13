@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2197713978944312724}
   - component: {fileID: 278786303710618152}
   - component: {fileID: 7547149054940867298}
+  - component: {fileID: 7097054733143333446}
   m_Layer: 0
   m_Name: Bent_Side_Pipe_LOW001 (1)
   m_TagString: Untagged
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7097054733143333446
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826412711910121302}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9028151081713499697, guid: 1d0890b53a46e6a4f9703ae74dcae0de, type: 3}
 --- !u!1 &1573978916446788312
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,7 +133,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.7813436, y: -1.3592219, z: 47.156708}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2197713978944312724}
   - {fileID: 1433666103913968861}
