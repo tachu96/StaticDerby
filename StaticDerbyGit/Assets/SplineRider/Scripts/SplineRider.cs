@@ -15,6 +15,7 @@ public class SplineRider : MonoBehaviour
     [SerializeField] private LayerMask detectMask = default;
     [SerializeField] private float detectRadius = 0.5f;
     [SerializeField] private float jumpForceWire = 8f;
+    [SerializeField] private float releaseJumpForceWire = 7f;
     [SerializeField] private Vector3 detectCenter = Vector3.zero;
     [SerializeField] private Color detectedColor = Color.cyan;
     [SerializeField] private Color undetectedColor = Color.red;
@@ -210,6 +211,8 @@ public class SplineRider : MonoBehaviour
             rb.isKinematic = false;
         IsRiding = false;
         ExitedSplineThisFrame = true;
+        if (rb)
+            rb.AddForce(Vector3.up * releaseJumpForceWire, ForceMode.Impulse);
         var rotY = transform.eulerAngles.y;
         var targetRot = Quaternion.Euler(0, rotY, 0);
         transform.rotation = targetRot;
