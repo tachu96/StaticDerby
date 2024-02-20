@@ -200,7 +200,7 @@ public class SplineRider : MonoBehaviour
         rideStartPos = splineContainer.transform.TransformPoint(rideStartPos);
     }
 
-    private void ReleaseFromSpline()
+    public void ReleaseFromSpline()
     {
         if (!IsRiding) return;
         splineAnimate = null;
