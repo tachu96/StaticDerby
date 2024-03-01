@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 1188243317747672021}
   - component: {fileID: 4337943506407260682}
   - component: {fileID: 4643489480754377860}
+  - component: {fileID: 7445386753122593824}
   m_Layer: 8
   m_Name: Spline_Container_Functional_Wire (2)
   m_TagString: Untagged
@@ -123,9 +124,9 @@ MonoBehaviour:
   - m_EditModeType: 1
     m_Knots:
     - Position:
-        x: -0.41319776
-        y: 2.163
-        z: -3.6000004
+        x: -0.413198
+        y: 2.37
+        z: -4.1370006
       TangentIn:
         x: 0
         y: 0
@@ -133,13 +134,13 @@ MonoBehaviour:
       TangentOut:
         x: 0
         y: 0
-        z: 2.356948
+        z: 3.824988
       Rotation:
         value:
-          x: 0.10595326
-          y: 0.1454483
-          z: -0.3519128
-          w: 0.91857284
+          x: 0.059149273
+          y: 0.08625316
+          z: -0.35260105
+          w: 0.92991084
     - Position:
         x: -0.9661974
         y: 6.1130004
@@ -301,6 +302,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <SplineAnimate>k__BackingField: {fileID: 1908816454896834754}
   <SplineContainer>k__BackingField: {fileID: 558629917876582592}
+--- !u!114 &7445386753122593824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184262492733773429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b74686beb0670a4ea61325c0acf4411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Container: {fileID: 558629917876582592}
+  m_ItemsToInstantiate:
+  - prefab: {fileID: 0}
+    Prefab: {fileID: 2245714118127815248, guid: 750d09b30bd74ab45870caf5c9a58a4c,
+      type: 3}
+    probability: 0
+    Probability: 100
+  m_Method: 1
+  m_Space: 2
+  m_Spacing: {x: 1.48, y: 1.48}
+  m_Up: 4
+  m_Forward: 5
+  m_PositionOffset:
+    setup: 1
+    min: {x: 0, y: -0.05, z: 0}
+    max: {x: 1.12, y: 0.72, z: 0}
+    randomX: 0
+    randomY: 0
+    randomZ: 0
+    space: 0
+  m_RotationOffset:
+    setup: 0
+    min: {x: 0, y: 0, z: 0}
+    max: {x: 0, y: 0, z: 0}
+    randomX: 0
+    randomY: 0
+    randomZ: 0
+    space: 0
+  m_ScaleOffset:
+    setup: 1
+    min: {x: 4, y: -4, z: 4}
+    max: {x: 10, y: 10, z: 10}
+    randomX: 0
+    randomY: 0
+    randomZ: 0
+    space: 0
+  m_DeprecatedInstances: []
+  m_AutoRefresh: 1
+  m_Seed: -21732
 --- !u!1 &471898041362280124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,6 +1066,7 @@ GameObject:
   - component: {fileID: 5560551367133592278}
   - component: {fileID: 7419244025050907654}
   - component: {fileID: 5928729288462588596}
+  - component: {fileID: 2520724698522560256}
   m_Layer: 8
   m_Name: Spline_Container_Functional_Wire (1)
   m_TagString: Untagged
@@ -1224,6 +1277,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <SplineAnimate>k__BackingField: {fileID: 9164139426680294734}
   <SplineContainer>k__BackingField: {fileID: 8446592968022451939}
+--- !u!114 &2520724698522560256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578118241354416392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b74686beb0670a4ea61325c0acf4411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Container: {fileID: 8446592968022451939}
+  m_ItemsToInstantiate:
+  - prefab: {fileID: 0}
+    Prefab: {fileID: 2245714118127815248, guid: 750d09b30bd74ab45870caf5c9a58a4c,
+      type: 3}
+    probability: 0
+    Probability: 100
+  m_Method: 1
+  m_Space: 2
+  m_Spacing: {x: 1.3, y: 1.3}
+  m_Up: 4
+  m_Forward: 5
+  m_PositionOffset:
+    setup: 1
+    min: {x: 0, y: -0.05, z: 0}
+    max: {x: 1.12, y: 0.72, z: 0}
+    randomX: 0
+    randomY: 0
+    randomZ: 0
+    space: 0
+  m_RotationOffset:
+    setup: 0
+    min: {x: 0, y: 0, z: 0}
+    max: {x: 0, y: 0, z: 0}
+    randomX: 0
+    randomY: 0
+    randomZ: 0
+    space: 0
+  m_ScaleOffset:
+    setup: 1
+    min: {x: 5, y: -5, z: -5}
+    max: {x: 10, y: 10, z: 10}
+    randomX: 0
+    randomY: 0
+    randomZ: 0
+    space: 0
+  m_DeprecatedInstances: []
+  m_AutoRefresh: 1
+  m_Seed: -21732
 --- !u!1 &3604569282926950110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,7 +1570,7 @@ MonoBehaviour:
   m_LoopMode: 0
   m_Method: 0
   m_Duration: 1
-  m_MaxSpeed: 17.644054
+  m_MaxSpeed: 18.136444
   m_EasingMode: 0
   m_AlignmentMode: 1
   m_ObjectForwardAxis: 2
@@ -26892,7 +26996,7 @@ PrefabInstance:
     - target: {fileID: 6639551546732984237, guid: 3303f2429e82d0a4e9e2d7d0c3d342f4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.211
       objectReference: {fileID: 0}
     - target: {fileID: 6639551546732984237, guid: 3303f2429e82d0a4e9e2d7d0c3d342f4,
         type: 3}
