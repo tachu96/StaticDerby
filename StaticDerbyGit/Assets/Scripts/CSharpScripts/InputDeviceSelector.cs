@@ -37,7 +37,6 @@ public class InputDeviceSelector : MonoBehaviour
         }
         else
         {
-            // No joystick connected, show keyboard instructions
             ShowKeyboardInstructions();
         }
     }
