@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ReleaseFromSplineObstacle : MonoBehaviour
 {
+    public GameObject ActivatedObjectToCheck;
+
     private void OnTriggerEnter(Collider other)
     {
         // Check if the object entering the trigger has the tag "Player"
@@ -15,8 +17,19 @@ public class ReleaseFromSplineObstacle : MonoBehaviour
             // Check if the component exists
             if (component != null)
             {
-                // Call the method on the component
-                component.ReleaseFromSpline();
+                if (ActivatedObjectToCheck == null)
+                {
+                    // Release from spline
+                    component.ReleaseFromSpline();
+                }
+                else {
+                    if (!ActivatedObjectToCheck.activeInHierarchy) {
+                        // Game object is not active in the scene, so we kick the player
+                        component.ReleaseFromSpline();
+                    }
+                    //we dont do anything if this is not the case
+                }
+
             }
         }
     }
