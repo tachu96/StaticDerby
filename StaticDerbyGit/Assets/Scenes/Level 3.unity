@@ -9102,7 +9102,7 @@ PrefabInstance:
     - target: {fileID: 7364582128314104029, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1e-45
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 7364582128314104029, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -9117,17 +9117,17 @@ PrefabInstance:
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.042100567
+      value: 0.04210057
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 2.2165087e-16
+      value: 0.0000000037219878
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -4.818621e-18
+      value: -1.5683686e-10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9923,10 +9923,16 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerDied","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EMP
       attack","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimerSetup","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimerImage","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimerText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+      Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1327012067}
     - {fileID: 143731294}
+    - {fileID: 1398056891}
+    - {fileID: 1398056888}
+    - {fileID: 1863141970}
 --- !u!4 &1079136402
 Transform:
   m_ObjectHideFlags: 0
@@ -13029,7 +13035,7 @@ PrefabInstance:
     - target: {fileID: 336139727221530927, guid: 91a25c233ed65984b866538416692b3d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 959467657536108005, guid: 91a25c233ed65984b866538416692b3d,
         type: 3}
@@ -13054,6 +13060,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 1874540811}
+    - target: {fileID: 1390930470346650690, guid: 91a25c233ed65984b866538416692b3d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2477460231741337190, guid: 91a25c233ed65984b866538416692b3d,
         type: 3}
       propertyPath: m_Pivot.x
@@ -13440,13 +13451,25 @@ PrefabInstance:
     - target: {fileID: 8191624014830028370, guid: 91a25c233ed65984b866538416692b3d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91a25c233ed65984b866538416692b3d, type: 3}
+--- !u!114 &1398056888 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5037113271625065520, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398056887}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1398056889 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8191624013074876052, guid: 91a25c233ed65984b866538416692b3d,
@@ -13456,6 +13479,12 @@ GameObject:
 --- !u!1 &1398056890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8191624014830028370, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398056887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1398056891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 738620129946962384, guid: 91a25c233ed65984b866538416692b3d,
     type: 3}
   m_PrefabInstance: {fileID: 1398056887}
   m_PrefabAsset: {fileID: 0}
@@ -17528,6 +17557,18 @@ MonoBehaviour:
   m_ObjectForwardAxis: 2
   m_ObjectUpAxis: 1
   m_StartOffset: 0
+--- !u!114 &1863141970 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 693954985188396660, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398056887}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1874540810
 PrefabInstance:
   m_ObjectHideFlags: 0
