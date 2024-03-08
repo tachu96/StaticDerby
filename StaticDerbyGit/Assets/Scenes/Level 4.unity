@@ -12165,6 +12165,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 593333052}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &596339602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1076832806614709652, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1978279511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &602321930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1113720828103844854, guid: c4852227bb70f884aadf514435205f01,
@@ -13114,12 +13120,12 @@ PrefabInstance:
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000037219878
+      value: 0.0000000037219878
       objectReference: {fileID: 0}
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 1.5683688e-10
+      value: -1.5683688e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1052078513978871614, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -13309,12 +13315,12 @@ PrefabInstance:
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000037219878
+      value: 0.0000000037219878
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 1.5683686e-10
+      value: -1.5683686e-10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30311,6 +30317,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1725280007}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1373438252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 738620129946962384, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1978279511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1377541789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35625,6 +35637,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4852227bb70f884aadf514435205f01, type: 3}
+--- !u!1 &1682496411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4159514651195129770, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1978279511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1683241173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42075,9 +42093,17 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerDied","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanWallJump","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"StartWithPackage","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TimerSetup","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimerText","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimerImage","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Package_Complete","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 57047850}
+    - {fileID: 1373438252}
+    - {fileID: 1682496411}
+    - {fileID: 596339602}
+    - {fileID: 1624046050481025594, guid: eb667f1cb9e7f034b961bfbf716b48d9, type: 3}
 --- !u!4 &1930591177
 Transform:
   m_ObjectHideFlags: 0
@@ -42655,7 +42681,7 @@ PrefabInstance:
     - target: {fileID: 1374425530217101715, guid: 947a19c96fb50a4438a14537f34c8eb4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.3
+      value: -15.52
       objectReference: {fileID: 0}
     - target: {fileID: 1374425530217101715, guid: 947a19c96fb50a4438a14537f34c8eb4,
         type: 3}
