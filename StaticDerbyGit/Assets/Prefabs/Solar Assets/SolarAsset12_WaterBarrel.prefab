@@ -58,10 +58,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4793791746673898885, guid: cc5158c4e539a114882bb3ec849b03b5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4275852366765788601, guid: cc5158c4e539a114882bb3ec849b03b5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3756390120765671643, guid: cc5158c4e539a114882bb3ec849b03b5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 666602370706033372, guid: cc5158c4e539a114882bb3ec849b03b5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cc5158c4e539a114882bb3ec849b03b5,
         type: 3}
       propertyPath: m_Name
       value: SolarAsset12_WaterBarrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cc5158c4e539a114882bb3ec849b03b5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2933128869228144564, guid: cc5158c4e539a114882bb3ec849b03b5,
         type: 3}
@@ -86,5 +111,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc5158c4e539a114882bb3ec849b03b5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1352466614304332303}
   m_SourcePrefab: {fileID: 100100000, guid: cc5158c4e539a114882bb3ec849b03b5, type: 3}
+--- !u!1 &394903787257151164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cc5158c4e539a114882bb3ec849b03b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 701316031752569837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1352466614304332303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394903787257151164}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.6, y: 1.7579691, z: 2.6431503}
+  m_Center: {x: 0, y: 0.058984637, z: 1.0153847}
