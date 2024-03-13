@@ -104,13 +104,13 @@ MonoBehaviour:
       TangentOut:
         x: 0
         y: 0
-        z: 1.4584686
+        z: 1.7793074
       Rotation:
         value:
-          x: -0.39516646
-          y: 0.5872673
-          z: 0.40193278
-          w: 0.58087057
+          x: -0.41527474
+          y: 0.5730606
+          z: 0.42204744
+          w: 0.5665903
     - Position:
         x: 2.223648
         y: -0.0000009536743
@@ -118,17 +118,17 @@ MonoBehaviour:
       TangentIn:
         x: 0
         y: 0
-        z: -0.8599264
+        z: -1.389976
       TangentOut:
         x: 0
         y: 0
         z: 0.2223854
       Rotation:
         value:
-          x: 0.45197847
-          y: 0.54610205
-          z: -0.45629507
-          w: 0.5378502
+          x: 0.46960726
+          y: 0.53011674
+          z: -0.47468886
+          w: 0.52260494
     m_MetaData:
     - Mode: 3
       Tension: 0.5
@@ -158,10 +158,20 @@ PrefabInstance:
       propertyPath: m_Target
       value: 
       objectReference: {fileID: 5008992384892012899}
+    - target: {fileID: 884140003475473482, guid: b6376e0ecf63f3d4d8773840eb416781,
+        type: 3}
+      propertyPath: m_Duration
+      value: 1.7386324
+      objectReference: {fileID: 0}
+    - target: {fileID: 884140003475473482, guid: b6376e0ecf63f3d4d8773840eb416781,
+        type: 3}
+      propertyPath: m_ObjectForwardAxis
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3885924566302613656, guid: b6376e0ecf63f3d4d8773840eb416781,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0470009
+      value: -1.0470014
       objectReference: {fileID: 0}
     - target: {fileID: 3885924566302613656, guid: b6376e0ecf63f3d4d8773840eb416781,
         type: 3}
@@ -171,12 +181,12 @@ PrefabInstance:
     - target: {fileID: 3885924566302613656, guid: b6376e0ecf63f3d4d8773840eb416781,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.0000000641362
       objectReference: {fileID: 0}
     - target: {fileID: 3885924566302613656, guid: b6376e0ecf63f3d4d8773840eb416781,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 1.0000001
       objectReference: {fileID: 0}
     - target: {fileID: 3885924566302613656, guid: b6376e0ecf63f3d4d8773840eb416781,
         type: 3}
@@ -186,7 +196,7 @@ PrefabInstance:
     - target: {fileID: 3885924566302613656, guid: b6376e0ecf63f3d4d8773840eb416781,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.0000014751398
       objectReference: {fileID: 0}
     - target: {fileID: 3885924566302613656, guid: b6376e0ecf63f3d4d8773840eb416781,
         type: 3}
@@ -218,11 +228,44 @@ PrefabInstance:
       propertyPath: ActivatedObjectToCheck
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5615248720433307065, guid: b6376e0ecf63f3d4d8773840eb416781, type: 3}
+    - {fileID: 9133421452745804269, guid: b6376e0ecf63f3d4d8773840eb416781, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4514369762202892834, guid: b6376e0ecf63f3d4d8773840eb416781,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6964366518665462433}
   m_SourcePrefab: {fileID: 100100000, guid: b6376e0ecf63f3d4d8773840eb416781, type: 3}
+--- !u!1 &1269366517515473268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4514369762202892834, guid: b6376e0ecf63f3d4d8773840eb416781,
+    type: 3}
+  m_PrefabInstance: {fileID: 3403579467457030998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6964366518665462433
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269366517515473268}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.53, y: 0.61, z: 0.47}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1933841614513933262 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3885924566302613656, guid: b6376e0ecf63f3d4d8773840eb416781,
