@@ -65,6 +65,8 @@ public class SplineRider : MonoBehaviour
     private void FixedUpdate()
     {
         DetectSplineRideable();
+        ResetRotation();
+
     }
 
     private void LateUpdate()
