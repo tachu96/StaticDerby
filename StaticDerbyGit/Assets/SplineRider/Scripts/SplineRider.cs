@@ -10,6 +10,7 @@ public class SplineRider : MonoBehaviour
     [SerializeField] private InputActionReference inputRide = null;
     [SerializeField] private InputActionReference inputRelease = null;
     [SerializeField] private GameObject MoveDirectionOfSplineRider;
+    [SerializeField] private Transform orientation;
 
     [Header("Values to set")]
     [SerializeField] private LayerMask detectMask = default;
@@ -65,8 +66,6 @@ public class SplineRider : MonoBehaviour
     private void FixedUpdate()
     {
         DetectSplineRideable();
-        ResetRotation();
-
     }
 
     private void LateUpdate()
@@ -101,6 +100,7 @@ public class SplineRider : MonoBehaviour
         transform.rotation = splineAnimateTrans.rotation;
     }
 
+    /*
     private void ResetRotation()
     {
         if (IsRiding) return;
@@ -114,6 +114,15 @@ public class SplineRider : MonoBehaviour
             resettingRotation = false;
             resetTimer = 0;
         }
+    }
+    */
+
+    private void ResetRotation()
+    {
+        if (IsRiding) return;
+        var rotY = transform.eulerAngles.y;
+        var targetRot = Quaternion.Euler(0, 0, 0);
+        transform.localRotation = targetRot;
     }
 
     void DetectSplineRideable()
