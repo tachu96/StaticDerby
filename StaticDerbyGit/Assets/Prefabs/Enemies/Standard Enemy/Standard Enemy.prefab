@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 252087347308572642}
   - component: {fileID: 3117649893845259854}
   - component: {fileID: 571576722842109088}
-  - component: {fileID: 5610673789668638150}
   m_Layer: 0
   m_Name: Package_Visual (1)
   m_TagString: Package
@@ -84,27 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5610673789668638150
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63044661192363085}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &575672866496035577
 GameObject:
   m_ObjectHideFlags: 0
@@ -5296,6 +5274,8 @@ GameObject:
   - component: {fileID: 1290603159677002899}
   - component: {fileID: 4692903166405859896}
   - component: {fileID: 1042944630205909565}
+  - component: {fileID: 3848287175998508208}
+  - component: {fileID: 4798383471081934182}
   m_Layer: 9
   m_Name: Standard Enemy
   m_TagString: Enemy
@@ -5416,6 +5396,54 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &3848287175998508208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814770819796993917}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.1120436, y: 2.6256762, z: 1.7992134}
+  m_Center: {x: -0.0105086565, y: 0.8128381, z: -0.03673935}
+--- !u!54 &4798383471081934182
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814770819796993917}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &3884176117043583041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5685,10 +5713,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f7f4fa19b96b3245beaed148fafa81d,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7295318596690864977}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f7f4fa19b96b3245beaed148fafa81d,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 6126842339903816061}
   m_SourcePrefab: {fileID: 100100000, guid: 9f7f4fa19b96b3245beaed148fafa81d, type: 3}
 --- !u!4 &3633812142727970730 stripped
@@ -5703,27 +5727,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3884176117043583041}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &7295318596690864977
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4118036395291665680}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.504947, y: 2.7962265, z: 2.5534954}
-  m_Center: {x: -0.056637526, y: 1.2864861, z: -0.29127955}
 --- !u!95 &6126842339903816061
 Animator:
   serializedVersion: 5
