@@ -208,6 +208,10 @@ public class SplineRider : MonoBehaviour
         rideTargetPos = transform.position;
         var searchPos = splineContainer.transform.InverseTransformPoint(rideTargetPos);
         SplineUtility.GetNearestPoint(spline, searchPos, out rideStartPos, out rideStartNormTime);
+
+        //clamp norm time so we dont have negative or 1+ values.
+        rideStartNormTime = Mathf.Clamp(rideStartNormTime, 0, 1);
+
         rideStartPos = splineContainer.transform.TransformPoint(rideStartPos);
     }
 
