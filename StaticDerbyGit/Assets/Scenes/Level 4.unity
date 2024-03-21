@@ -4648,6 +4648,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaySoundEffect General Player Trigger
       objectReference: {fileID: 0}
+    - target: {fileID: 2730748127647103402, guid: e531d50077eda42489d2f7f5285c6f01,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3265245914501776799, guid: e531d50077eda42489d2f7f5285c6f01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12565,6 +12570,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 6, y: 8.000002, z: 18.000004}
   m_Center: {x: 0, y: 0, z: 9.000002}
+--- !u!1 &757041785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2194977023476217999, guid: 8928ab514f002d641b34fc7225758b77,
+    type: 3}
+  m_PrefabInstance: {fileID: 1990997998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &758836209
 GameObject:
   m_ObjectHideFlags: 0
@@ -16830,12 +16841,12 @@ PrefabInstance:
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0000000037219878
+      value: 0.0000000037219878
       objectReference: {fileID: 0}
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -1.5683688e-10
+      value: 1.5683688e-10
       objectReference: {fileID: 0}
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -17162,12 +17173,12 @@ PrefabInstance:
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -2.2165087e-16
+      value: 0.0000000037219876
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -4.818621e-18
+      value: 1.5683686e-10
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -17177,7 +17188,7 @@ PrefabInstance:
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.042100567
+      value: 0.04210057
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32967,6 +32978,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"train1Moving","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Level
       transition animation","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Music_and_Sfx","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1354864479}
@@ -32977,6 +32989,7 @@ MonoBehaviour:
     - {fileID: 730854055}
     - {fileID: 1551053219}
     - {fileID: 1683241174}
+    - {fileID: 757041785}
 --- !u!4 &1930591177
 Transform:
   m_ObjectHideFlags: 0
@@ -38178,6 +38191,8 @@ SceneRoots:
   - {fileID: 1978279511}
   - {fileID: 991899740}
   - {fileID: 1683241173}
+  - {fileID: 1990997998}
+  - {fileID: 289802779}
   - {fileID: 1008366690}
   - {fileID: 203844589}
   - {fileID: 1000903638}
@@ -38438,5 +38453,3 @@ SceneRoots:
   - {fileID: 123987557}
   - {fileID: 1643869040}
   - {fileID: 690853897}
-  - {fileID: 1990997998}
-  - {fileID: 289802779}
