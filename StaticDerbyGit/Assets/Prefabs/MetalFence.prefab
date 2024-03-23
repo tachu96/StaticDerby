@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 5575916434937868258}
   - component: {fileID: 65513528429178835}
   - component: {fileID: 2443888457216870962}
+  - component: {fileID: 2478782984377830891}
   m_Layer: 0
   m_Name: FenceStick
   m_TagString: Untagged
@@ -222,6 +223,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.078740165, y: 0.078740165, z: 0.002}
   m_Center: {x: -0.039370082, y: -0.000000014901161, z: 0.000000057883724}
+--- !u!208 &2478782984377830891
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841300571734479464}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.039, y: 0.039, z: 0.00001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.039, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8534550923592182023
 GameObject:
   m_ObjectHideFlags: 0
