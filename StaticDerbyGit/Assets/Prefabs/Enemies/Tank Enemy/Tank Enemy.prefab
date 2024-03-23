@@ -411,6 +411,7 @@ GameObject:
   - component: {fileID: 764916628968023151}
   - component: {fileID: 6633326704411702360}
   - component: {fileID: 3917216681694037816}
+  - component: {fileID: 4670412573874124203}
   m_Layer: 9
   m_Name: Tank Enemy
   m_TagString: TankEnemy
@@ -551,6 +552,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.386868, y: 1.6801388, z: 1.9796495}
   m_Center: {x: 0.049918413, y: 0.74565685, z: 0.0031199455}
+--- !u!54 &4670412573874124203
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8822867104053397936}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1256756338289652456
 PrefabInstance:
   m_ObjectHideFlags: 0
