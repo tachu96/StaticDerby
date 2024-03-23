@@ -26418,6 +26418,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.734213
       objectReference: {fileID: 0}
+    - target: {fileID: 3481280088137477470, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: m_XAxis.m_MaxSpeed
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3481280088137477470, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: m_YAxis.m_MaxSpeed
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3481280088137477470, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: m_XAxis.m_AccelTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3481280088137477470, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: m_YAxis.m_AccelTime
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3482596156436803827, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -26566,7 +26586,7 @@ PrefabInstance:
     - target: {fileID: 4742827006243807260, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1e-45
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 4742827006243807260, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -26886,7 +26906,7 @@ PrefabInstance:
     - target: {fileID: 7364582128314104029, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1e-45
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7364582128314104029, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -33407,18 +33427,24 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FirstButton","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PauseMenu","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5279889384662018994, guid: cc3b8ecd885ed474c99d34acc9606a96,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5279889384662018994, guid: cc3b8ecd885ed474c99d34acc9606a96,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2070730329}
+    - target: {fileID: 5279889384662018994, guid: cc3b8ecd885ed474c99d34acc9606a96,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 1431022944}
     - target: {fileID: 5279889384662019023, guid: cc3b8ecd885ed474c99d34acc9606a96,
         type: 3}
       propertyPath: m_Name
@@ -40010,6 +40036,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428275512}
   m_Mesh: {fileID: 5792772888745556065, guid: c797b50a227885242ad47c4fae46b6e5, type: 3}
+--- !u!1 &1431022944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7381794106879582857, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 425845653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1431467070
 GameObject:
   m_ObjectHideFlags: 0
@@ -47383,6 +47415,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1661643959}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1662426127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1671098394616759951, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 425845653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1662495168
 GameObject:
   m_ObjectHideFlags: 0
@@ -48194,6 +48232,7 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ElectricityCharge","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SewerMaskedTransitioner","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Music_and_Sfx","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HudStuff","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 928178361}
@@ -48205,6 +48244,7 @@ MonoBehaviour:
     - {fileID: 135145182}
     - {fileID: 569989391}
     - {fileID: 1027376788}
+    - {fileID: 1662426127}
 --- !u!4 &1678058389
 Transform:
   m_ObjectHideFlags: 0
@@ -59270,6 +59310,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2068173605}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2070730329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7165578614950046480, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 425845653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2073249313
 GameObject:
   m_ObjectHideFlags: 0
@@ -66999,6 +67045,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5825780565481835926, guid: e531d50077eda42489d2f7f5285c6f01,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Is2D","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayOnce","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825780565481835926, guid: e531d50077eda42489d2f7f5285c6f01,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825780565481835926, guid: e531d50077eda42489d2f7f5285c6f01,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ca2334e24d5f5284785a50dd550aafdc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
