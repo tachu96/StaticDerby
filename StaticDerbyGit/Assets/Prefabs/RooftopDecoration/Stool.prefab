@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6132410030368386132}
   - component: {fileID: 8838053851591290388}
   - component: {fileID: 144633352609913189}
+  - component: {fileID: 2613760810125558824}
+  - component: {fileID: 4285183022949013620}
   m_Layer: 6
   m_Name: Stool
   m_TagString: Untagged
@@ -105,3 +107,46 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.056697585, y: 0.05583623, z: 0.075804844}
   m_Center: {x: 9.313226e-10, y: 0.0000000027939677, z: 0.037902422}
+--- !u!208 &2613760810125558824
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3110725110033100961}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.028, y: 0.028, z: 0.038000003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0.038000003}
+  m_TimeToStationary: 0.5
+--- !u!54 &4285183022949013620
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3110725110033100961}
+  serializedVersion: 4
+  m_Mass: 0.8
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
