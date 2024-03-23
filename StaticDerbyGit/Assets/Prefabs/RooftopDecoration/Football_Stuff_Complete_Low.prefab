@@ -562,6 +562,7 @@ GameObject:
   - component: {fileID: 2284240303197561315}
   - component: {fileID: 4557178997467199308}
   - component: {fileID: 4346643126831376692}
+  - component: {fileID: 7994285827932350497}
   m_Layer: 0
   m_Name: GoalKeep_Low
   m_TagString: Untagged
@@ -634,6 +635,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &7994285827932350497
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271404371041746233}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.076000005, y: 0.16700001, z: 0.11100001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 0
+  m_Center: {x: -0.006, y: 0, z: 0.104}
+  m_TimeToStationary: 0.5
 --- !u!1 &4111780911653255118
 GameObject:
   m_ObjectHideFlags: 0
