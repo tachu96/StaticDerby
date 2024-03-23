@@ -74,6 +74,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 51557846309094426}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &5278890545656198694 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5329246466775069244, guid: 5961d7a38d245c645bdab617ff0bc802,
+    type: 3}
+  m_PrefabInstance: {fileID: 51557846309094426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2433596874488420230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85,21 +91,27 @@ PrefabInstance:
     - target: {fileID: 1922465524648168446, guid: ca11f749708db1b47b7b9720e002c88f,
         type: 3}
       propertyPath: m_Name
-      value: FireWork Trigger Setup StandartNoLoop Variant
+      value: FireWork Trigger Setup Standart NoLoop
       objectReference: {fileID: 0}
     - target: {fileID: 4234286428270123584, guid: ca11f749708db1b47b7b9720e002c88f,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FireWorkToPlay","value":{"$content":[null],"$type":"System.Collections.Generic.List`1[[UnityEngine.ParticleSystem,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FireWorkToPlay","value":{"$content":[0],"$type":"System.Collections.Generic.List`1[[UnityEngine.ParticleSystem,
         UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.ParticleSystem,
         UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FootballGoal","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4234286428270123584, guid: ca11f749708db1b47b7b9720e002c88f,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4234286428270123584, guid: ca11f749708db1b47b7b9720e002c88f,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 5278890545656198694}
     - target: {fileID: 8539454663806783168, guid: ca11f749708db1b47b7b9720e002c88f,
         type: 3}
       propertyPath: m_LocalPosition.x
