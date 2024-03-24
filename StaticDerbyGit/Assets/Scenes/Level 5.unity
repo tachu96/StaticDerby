@@ -1005,21 +1005,21 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Bot
         Package","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Open
-        Door","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        Door","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Closed
-        Door","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        Door","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Bot
-        Mesh","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        Mesh","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Smoke","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Run
-        away Point ","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Eye","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        away Point ","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Eye","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
@@ -1066,17 +1066,17 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[8]
       value: 
-      objectReference: {fileID: 47026879}
+      objectReference: {fileID: 1342327247}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[9]
       value: 
-      objectReference: {fileID: 47026880}
+      objectReference: {fileID: 690378910}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[10]
       value: 
-      objectReference: {fileID: 47026881}
+      objectReference: {fileID: 1468923434}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[11]
@@ -1086,7 +1086,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[12]
       value: 
-      objectReference: {fileID: 124426663}
+      objectReference: {fileID: 0}
     - target: {fileID: 4798383471081934182, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: m_UseGravity
@@ -1161,24 +1161,6 @@ Transform:
 --- !u!1 &47026878 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 63044661192363085, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 47026875}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &47026879 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1769000670150836572, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 47026875}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &47026880 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7747713707363347301, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 47026875}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &47026881 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4118036395291665680, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
     type: 3}
   m_PrefabInstance: {fileID: 47026875}
   m_PrefabAsset: {fileID: 0}
@@ -2821,12 +2803,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122909946}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &124426663 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 597118128402962027, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 47026875}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &125053209
 GameObject:
   m_ObjectHideFlags: 0
@@ -5173,6 +5149,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228131531}
   m_Mesh: {fileID: 5792772888745556065, guid: c797b50a227885242ad47c4fae46b6e5, type: 3}
+--- !u!1 &228136654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1111224738955491933, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1634023134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &228806067
 GameObject:
   m_ObjectHideFlags: 0
@@ -14123,12 +14105,12 @@ PrefabInstance:
     - target: {fileID: 306041017201961090, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 1.810886
+      value: 4.422794
       objectReference: {fileID: 0}
     - target: {fileID: 306041017201961090, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -2.740697
+      value: -1.892161
       objectReference: {fileID: 0}
     - target: {fileID: 987327158185368684, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
@@ -14159,12 +14141,12 @@ PrefabInstance:
     - target: {fileID: 2223613532603718984, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 1.810886
+      value: 4.422794
       objectReference: {fileID: 0}
     - target: {fileID: 2223613532603718984, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -2.740697
+      value: -1.892161
       objectReference: {fileID: 0}
     - target: {fileID: 4414015878771950472, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
@@ -14234,12 +14216,12 @@ PrefabInstance:
     - target: {fileID: 8672350446382844947, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 1.810886
+      value: 4.422794
       objectReference: {fileID: 0}
     - target: {fileID: 8672350446382844947, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -2.740697
+      value: -1.892161
       objectReference: {fileID: 0}
     - target: {fileID: 9063040909638825509, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
@@ -18261,12 +18243,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693445600}
   m_Mesh: {fileID: 5792772888745556065, guid: c797b50a227885242ad47c4fae46b6e5, type: 3}
---- !u!1 &696661272 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 597118128402962027, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1634023134}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &700253147
 GameObject:
   m_ObjectHideFlags: 0
@@ -18797,6 +18773,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3890657758103057699, guid: 6b234967a6dd38d44bd0675731d4145a,
     type: 3}
   m_PrefabInstance: {fileID: 720544608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &721989629 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4370099739879196859, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1634023134}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &722833131
 PrefabInstance:
@@ -25424,12 +25406,12 @@ PrefabInstance:
     - target: {fileID: 590403034481401582, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2
+      value: 3.6627
       objectReference: {fileID: 0}
     - target: {fileID: 590403034481401582, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -7
+      value: -5.95242
       objectReference: {fileID: 0}
     - target: {fileID: 724476864654349387, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -25489,12 +25471,12 @@ PrefabInstance:
     - target: {fileID: 831544758083411522, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2
+      value: 3.6627
       objectReference: {fileID: 0}
     - target: {fileID: 831544758083411522, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -7
+      value: -5.95242
       objectReference: {fileID: 0}
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -25524,12 +25506,12 @@ PrefabInstance:
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000037219878
+      value: -0.0000000037219878
       objectReference: {fileID: 0}
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.5683688e-10
+      value: 1.5683688e-10
       objectReference: {fileID: 0}
     - target: {fileID: 952574244429564886, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -25689,12 +25671,12 @@ PrefabInstance:
     - target: {fileID: 1877926603275726935, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2
+      value: 3.6627
       objectReference: {fileID: 0}
     - target: {fileID: 1877926603275726935, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -7
+      value: -5.95242
       objectReference: {fileID: 0}
     - target: {fileID: 1981751444396503808, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -26443,12 +26425,12 @@ PrefabInstance:
     - target: {fileID: 7364582128314104029, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1387012
+      value: 0.13870122
       objectReference: {fileID: 0}
     - target: {fileID: 7364582128314104029, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 7364582128314104029, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -26568,17 +26550,17 @@ PrefabInstance:
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.04210057
+      value: 0.042100567
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000037219876
+      value: -3.9373797e-19
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.5683686e-10
+      value: -4.8186215e-18
       objectReference: {fileID: 0}
     - target: {fileID: 8575967367164906901, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -36610,6 +36592,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342320663}
   m_Mesh: {fileID: 5792772888745556065, guid: c797b50a227885242ad47c4fae46b6e5, type: 3}
+--- !u!1 &1342327247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1111224738955491933, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 47026875}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1343236586
 GameObject:
   m_ObjectHideFlags: 0
@@ -40692,6 +40680,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1489638509984535701, guid: 9fcc50d29feaf4743a0da6fbbd33e785,
     type: 3}
   m_PrefabInstance: {fileID: 1467556250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1468923434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4370099739879196859, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 47026875}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1471450362
 GameObject:
@@ -45131,21 +45125,21 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Bot
         Package","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Open
-        Door","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        Door","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Closed
-        Door","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        Door","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Bot
-        Mesh","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        Mesh","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Smoke","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Run
-        away Point ","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Eye","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        away Point ","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Eye","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
@@ -45192,17 +45186,17 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[8]
       value: 
-      objectReference: {fileID: 1634023138}
+      objectReference: {fileID: 228136654}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[9]
       value: 
-      objectReference: {fileID: 1634023139}
+      objectReference: {fileID: 1116079330}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[10]
       value: 
-      objectReference: {fileID: 1634023140}
+      objectReference: {fileID: 721989629}
     - target: {fileID: 1290603159677002899, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[11]
@@ -45212,7 +45206,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[12]
       value: 
-      objectReference: {fileID: 696661272}
+      objectReference: {fileID: 0}
     - target: {fileID: 4798383471081934182, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
         type: 3}
       propertyPath: m_UseGravity
@@ -45287,24 +45281,6 @@ Transform:
 --- !u!1 &1634023137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 63044661192363085, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1634023134}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1634023138 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1769000670150836572, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1634023134}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1634023139 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7747713707363347301, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1634023134}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1634023140 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4118036395291665680, guid: 57e9f1f5ed2466c4fa0c95c6974e94c0,
     type: 3}
   m_PrefabInstance: {fileID: 1634023134}
   m_PrefabAsset: {fileID: 0}
@@ -64048,12 +64024,12 @@ PrefabInstance:
     - target: {fileID: 306041017201961090, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2.5
+      value: 2.388915
       objectReference: {fileID: 0}
     - target: {fileID: 306041017201961090, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -3
+      value: -2.982618
       objectReference: {fileID: 0}
     - target: {fileID: 987327158185368684, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
@@ -64084,12 +64060,12 @@ PrefabInstance:
     - target: {fileID: 2223613532603718984, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2.5
+      value: 2.388915
       objectReference: {fileID: 0}
     - target: {fileID: 2223613532603718984, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -3
+      value: -2.982618
       objectReference: {fileID: 0}
     - target: {fileID: 4414015878771950472, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
@@ -64159,12 +64135,12 @@ PrefabInstance:
     - target: {fileID: 8672350446382844947, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2.5
+      value: 2.388915
       objectReference: {fileID: 0}
     - target: {fileID: 8672350446382844947, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -3
+      value: -2.982618
       objectReference: {fileID: 0}
     - target: {fileID: 9063040909638825509, guid: dfe0f79b8ab18dd44baef4312f2db8af,
         type: 3}
