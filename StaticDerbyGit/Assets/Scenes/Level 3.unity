@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.562
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0632698, g: 0.23474883, b: 0.40638405, a: 0.562}
+  m_IndirectSpecularColor: {r: 0.06326981, g: 0.23474883, b: 0.40638405, a: 0.562}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3218,6 +3218,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5241719, y: 1.8162302, z: 0.1575929}
   m_Center: {x: 0.08596792, y: 0, z: -0.26287556}
+--- !u!1 &102163142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7381794106879582857, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398056887}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &109405379
 GameObject:
   m_ObjectHideFlags: 0
@@ -17405,6 +17411,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 633288816}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &638279920 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1671098394616759951, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1398056887}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &640244928 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5778227157046190682, guid: c90cb856ee3674d4bb61062dfd7d9695,
@@ -17650,7 +17662,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649141788}
   serializedVersion: 2
-  m_LocalRotation: {x: -3.6541224e-16, y: -0.70157456, z: -3.5976054e-16, w: 0.71259606}
+  m_LocalRotation: {x: 3.6541224e-16, y: -0.70157456, z: 3.5976054e-16, w: 0.71259606}
   m_LocalPosition: {x: -51.231796, y: -3.665556, z: -28.006573}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -28610,7 +28622,8 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 311011201182764098, guid: 9ce1a50cb7a98c04494d84384beced7e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7272411856722571906, guid: 9ce1a50cb7a98c04494d84384beced7e,
@@ -30312,6 +30325,7 @@ MonoBehaviour:
       ","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Package_Complete","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Music_and_Sfx","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HudStuff","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1327012067}
@@ -30323,6 +30337,7 @@ MonoBehaviour:
     - {fileID: 1398056892}
     - {fileID: 397666616}
     - {fileID: 442790396}
+    - {fileID: 638279920}
 --- !u!4 &1079136402
 Transform:
   m_ObjectHideFlags: 0
@@ -30651,7 +30666,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115252519}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.017767534, y: 0.94210225, z: 0.3310145, w: -0.050568268}
+  m_LocalRotation: {x: 0.017767524, y: 0.94210225, z: 0.33101448, w: -0.050568253}
   m_LocalPosition: {x: -17.03785, y: -7.255556, z: 13.02359}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -39814,7 +39829,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500948594}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.015464865, y: 0.8665196, z: 0.026899243, w: -0.49817795}
+  m_LocalRotation: {x: 0.015464871, y: 0.8665196, z: 0.026899254, w: -0.49817795}
   m_LocalPosition: {x: -33.87, y: -1.16, z: -12.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -51315,7 +51330,8 @@ PrefabInstance:
     - target: {fileID: 5279889384662018994, guid: cc3b8ecd885ed474c99d34acc9606a96,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FirstButton","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FirstButton","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PauseMenu","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5279889384662018994, guid: cc3b8ecd885ed474c99d34acc9606a96,
@@ -51327,7 +51343,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 102163142}
     - target: {fileID: 5279889384662019023, guid: cc3b8ecd885ed474c99d34acc9606a96,
         type: 3}
       propertyPath: m_Name

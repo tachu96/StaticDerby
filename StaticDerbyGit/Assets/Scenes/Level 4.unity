@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.11155557, g: 0.3632676, b: 0.72965795, a: 1}
+  m_IndirectSpecularColor: {r: 0.1115556, g: 0.36326775, b: 0.72965795, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -26460,7 +26460,8 @@ PrefabInstance:
     - target: {fileID: 5279889384662018994, guid: cc3b8ecd885ed474c99d34acc9606a96,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FirstButton","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"FirstButton","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PauseMenu","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5279889384662018994, guid: cc3b8ecd885ed474c99d34acc9606a96,
@@ -26472,7 +26473,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1197128178}
     - target: {fileID: 5279889384662019023, guid: cc3b8ecd885ed474c99d34acc9606a96,
         type: 3}
       propertyPath: m_Name
@@ -26956,12 +26957,12 @@ PrefabInstance:
     - target: {fileID: 590403034481401582, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2
+      value: -0.5326653
       objectReference: {fileID: 0}
     - target: {fileID: 590403034481401582, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -7
+      value: -5.790818
       objectReference: {fileID: 0}
     - target: {fileID: 730441866997313171, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -26971,12 +26972,12 @@ PrefabInstance:
     - target: {fileID: 831544758083411522, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2
+      value: -0.5326653
       objectReference: {fileID: 0}
     - target: {fileID: 831544758083411522, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -7
+      value: -5.790818
       objectReference: {fileID: 0}
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -27116,12 +27117,12 @@ PrefabInstance:
     - target: {fileID: 1877926603275726935, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2
+      value: -0.5326653
       objectReference: {fileID: 0}
     - target: {fileID: 1877926603275726935, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_FollowOffset.z
-      value: -7
+      value: -5.790818
       objectReference: {fileID: 0}
     - target: {fileID: 2095871347190270593, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -27238,7 +27239,7 @@ PrefabInstance:
     - target: {fileID: 4742827006243807260, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 4742827006243807260, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -27328,7 +27329,7 @@ PrefabInstance:
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0000000037219878
+      value: -0.0000000037219876
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -33510,6 +33511,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 142571436141077219, guid: 81318ab169c1fd9478873d4070f313c2,
     type: 3}
   m_PrefabInstance: {fileID: 1126350105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1197128178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7381794106879582857, guid: 91a25c233ed65984b866538416692b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1978279511}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1201437817
 PrefabInstance:
