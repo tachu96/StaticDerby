@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RamenSoup
+  m_Shader: {fileID: -6465566751694194690, guid: 9a3c6d2393ddada48baac8d2a6717fde,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FoamAmmount: 0.7
+    - _FoamCuttoff: 3.63
+    - _FoamNoiseScale: 1
+    - _FoamNoiseVariantSpeed: 0.035
+    - _FoamScale: 4.22
+    - _FoamSpeed: 0.01
+    - _FoamVariantScale: 8.9
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RefractionScale: 1
+    - _RefractionSpeed: 0.025
+    - _RefractionStrength: 0.005
+    - _WaterDepth: 0.6
+    m_Colors:
+    - _DeepWater: {r: 0.454902, g: 0.21176466, b: 0.066666625, a: 0.24705882}
+    - _FoamColor: {r: 0.85344213, g: 0.8867924, b: 0.56470275, a: 0.29803923}
+    - _FoamOffset: {r: 0, g: 10, b: 0, a: 0}
+    - _OffsetXY: {r: 1, g: 1, b: 0, a: 0}
+    - _ShallowWater: {r: 0.7960785, g: 0.5568628, b: 0.1411764, a: 0.16470589}
+  m_BuildTextureStacks: []
+--- !u!114 &6550460153609807950
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
