@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 8381209248867253302}
   - component: {fileID: 1017864270214829828}
   - component: {fileID: 6618251668151801170}
+  - component: {fileID: 337192112516345311}
   m_Layer: 6
   m_Name: TetraPack003
   m_TagString: Untagged
@@ -219,3 +220,23 @@ CapsuleCollider:
   m_Height: 0.018468404
   m_Direction: 2
   m_Center: {x: -0.0001939298, y: 0.0006010412, z: 0.009234204}
+--- !u!205 &337192112516345311
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620499814118832269}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.00030163396, y: 0.000078838784, z: 0.0097808195}
+  m_Size: 0.019561647
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.011523266
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8381209248867253302}
+    - renderer: {fileID: 4369135976762852314}
+  m_Enabled: 1

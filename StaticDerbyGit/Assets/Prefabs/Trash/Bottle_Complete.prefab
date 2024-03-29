@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 926122403493104607}
   - component: {fileID: 6282713918110298028}
   - component: {fileID: 3396180224045183971}
+  - component: {fileID: 7312956736006319174}
   m_Layer: 0
   m_Name: Bottle_Cap
   m_TagString: Untagged
@@ -83,6 +84,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &7312956736006319174
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797789101324134989}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.000000059604645, y: -0.00000011944212, z: 0.0003096186}
+  m_Size: 0.0027355538
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.011523266
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3396180224045183971}
+  m_Enabled: 1
 --- !u!1 &1188166411066102552
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +199,7 @@ GameObject:
   - component: {fileID: 7300172598708816719}
   - component: {fileID: 4220246158506819204}
   - component: {fileID: 7508152678261666158}
+  - component: {fileID: 8289417017406826904}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: Untagged
@@ -252,3 +273,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &8289417017406826904
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3859523447703555765}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: -0.000000004656613, z: 0.0093294205}
+  m_Size: 0.018532706
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.011523266
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7508152678261666158}
+  m_Enabled: 1
