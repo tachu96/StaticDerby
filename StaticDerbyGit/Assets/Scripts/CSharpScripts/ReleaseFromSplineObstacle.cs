@@ -7,7 +7,15 @@ public class ReleaseFromSplineObstacle : MonoBehaviour
 {
     public GameObject ActivatedObjectToCheck;
 
-    private bool dead=false;
+    public bool dead=false;
+    private Animator animator;
+
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -53,6 +61,11 @@ public class ReleaseFromSplineObstacle : MonoBehaviour
                 if (!dead) { 
                     //lets kill the robot
                     dead=true;
+
+                    //animate it
+                    if (animator) { 
+                        animator.SetBool("Dead",true);
+                    }
 
                     SplineAnimate splineAnimate = GetComponent<SplineAnimate>();
 
