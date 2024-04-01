@@ -12,6 +12,8 @@ public class SplineRideable : MonoBehaviour
     [field: SerializeField] public SplineAnimate SplineAnimate { get; private set; }
     [field: SerializeField] public SplineContainer SplineContainer { get; private set; }
 
+    public bool flowUnreversable;
+
     public void RideSpline(GameObject rider)
     {
 

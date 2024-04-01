@@ -100,23 +100,6 @@ public class SplineRider : MonoBehaviour
         transform.rotation = splineAnimateTrans.rotation;
     }
 
-    /*
-    private void ResetRotation()
-    {
-        if (IsRiding) return;
-        if (!resettingRotation) return;
-
-        var rotY = transform.eulerAngles.y;
-        var targetRot = Quaternion.Euler(0, rotY, 0);
-        transform.rotation = targetRot;
-        resetTimer += Time.deltaTime;
-        if (resetTimer > 1) {
-            resettingRotation = false;
-            resetTimer = 0;
-        }
-    }
-    */
-
     private void ResetRotation()
     {
         if (IsRiding) return;
@@ -174,7 +157,9 @@ public class SplineRider : MonoBehaviour
         splineAnimateTrans = splineAnimate.transform;
         splineContainer = splineRideable.SplineContainer;
         spline = splineContainer.Spline;
+        bool flowUnreversable = splineRideable.flowUnreversable;
 
+        Debug.Log("flow Unreversable?" + flowUnreversable);
         //calculate position
         CalculateSplinePosition();
 
@@ -183,7 +168,7 @@ public class SplineRider : MonoBehaviour
         var dir = SplineUtility.EvaluateTangent(spline, rideStartNormTime);
         //see if the player s move direction is facing the same way
         var diff = math.dot(dir, (float3)MoveDirectionOfSplineRider.transform.forward);
-        if (diff < 0)
+        if (diff < 0&& !flowUnreversable)
         {
             reversed = true;
             SplineUtility.ReverseFlow(spline);
