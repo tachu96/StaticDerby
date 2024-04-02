@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 361225946994963890}
   - component: {fileID: 6907329247669561605}
   - component: {fileID: 6741475687048858830}
+  - component: {fileID: 2789535417309894987}
   m_Layer: 0
   m_Name: Awning Flat
   m_TagString: Untagged
@@ -106,3 +107,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1817936943543118799, guid: b69c570ecec4b9a4da558d2e2470ebf8, type: 3}
+--- !u!205 &2789535417309894987
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6494839139999670614}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.008249998, y: -0.008261137, z: 0.0057430333}
+  m_Size: 0.11652233
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.023650518
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6907329247669561605}
+  m_Enabled: 1
