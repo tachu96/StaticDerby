@@ -1485,6 +1485,7 @@ GameObject:
   - component: {fileID: 8621201737461533736}
   - component: {fileID: 2155201207599709413}
   - component: {fileID: 884140003475473482}
+  - component: {fileID: 3588979843021044589}
   m_Layer: 0
   m_Name: RailRobot Variant
   m_TagString: Untagged
@@ -1536,6 +1537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActivatedObjectToCheck: {fileID: 0}
+  dead: 0
 --- !u!135 &2155201207599709413
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1580,6 +1582,39 @@ MonoBehaviour:
   m_ObjectForwardAxis: 2
   m_ObjectUpAxis: 1
   m_StartOffset: 0
+--- !u!205 &3588979843021044589
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514369762202892834}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.023623377, y: -0.09256616, z: 0.057468966}
+  m_Size: 1.320488
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07218723
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6712466441310805002}
+    - renderer: {fileID: 4626759066829664933}
+    - renderer: {fileID: 4021172415089365637}
+    - renderer: {fileID: 1630978496755621925}
+    - renderer: {fileID: 7022707787064876729}
+    - renderer: {fileID: 3396354843923485781}
+    - renderer: {fileID: 5929141185897934186}
+    - renderer: {fileID: 3344761315824318822}
+    - renderer: {fileID: 4432428898943228193}
+    - renderer: {fileID: 8987923635005922789}
+    - renderer: {fileID: 71362048447845557}
+    - renderer: {fileID: 2118747655765112529}
+    - renderer: {fileID: 8066306777564540891}
+    - renderer: {fileID: 4316949984152796614}
+    - renderer: {fileID: 5253793950830833312}
+  m_Enabled: 1
 --- !u!1 &4622015138442649851
 GameObject:
   m_ObjectHideFlags: 0
