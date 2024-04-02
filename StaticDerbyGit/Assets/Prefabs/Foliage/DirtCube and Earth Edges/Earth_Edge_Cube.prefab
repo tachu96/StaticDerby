@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7581336020706029027}
   - component: {fileID: 9150950642636537738}
   - component: {fileID: 8111497278993647944}
+  - component: {fileID: 2853340179431225055}
   m_Layer: 0
   m_Name: Earth_Edge_Cube
   m_TagString: Untagged
@@ -83,3 +84,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &2853340179431225055
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94950868087854496}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.008249998, y: -0.008261137, z: 0.0057430333}
+  m_Size: 0.11652233
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.096090935
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8111497278993647944}
+  m_Enabled: 1
