@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8538183455081095748}
   - component: {fileID: 4627374027977102179}
   - component: {fileID: 239553735927634921}
+  - component: {fileID: 2476170715711563448}
+  - component: {fileID: -570591870321521298}
   m_Layer: 0
   m_Name: Curved Awning (large)
   m_TagString: Untagged
@@ -92,7 +94,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5000023706971825209}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2281fc178f811854794a9db67f7812fd, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -126,3 +128,36 @@ LODGroup:
     renderers:
     - renderer: {fileID: 8538183455081095748}
   m_Enabled: 1
+--- !u!114 &2476170715711563448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000023706971825209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
+--- !u!114 &-570591870321521298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000023706971825209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: dfb1c7d0dfe0dce4990f20858d46cdf8, type: 3}

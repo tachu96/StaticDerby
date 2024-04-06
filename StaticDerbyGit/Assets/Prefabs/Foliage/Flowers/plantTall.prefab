@@ -84,6 +84,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5189003736922861657}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 72bc066369d7d2a44af963ee206c1eef,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3202430808058035959}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 72bc066369d7d2a44af963ee206c1eef,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8123496711553294631}
   m_SourcePrefab: {fileID: 100100000, guid: 72bc066369d7d2a44af963ee206c1eef, type: 3}
 --- !u!1 &570286720175445239 stripped
 GameObject:
@@ -147,6 +155,39 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2083738018648274210}
   m_Enabled: 1
+--- !u!114 &-3202430808058035959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570286720175445239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
+--- !u!114 &-8123496711553294631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570286720175445239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: f2cfcc3d7012d2a43a8f045de723e78d, type: 3}
 --- !u!23 &2083738018648274210 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 72bc066369d7d2a44af963ee206c1eef,
