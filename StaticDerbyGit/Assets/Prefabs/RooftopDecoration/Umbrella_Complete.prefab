@@ -427,6 +427,8 @@ GameObject:
   - component: {fileID: 5788832755677951971}
   - component: {fileID: 3783665250676792852}
   - component: {fileID: 2126462772143034059}
+  - component: {fileID: 7713955681758685983}
+  - component: {fileID: 6060316816379624280}
   m_Layer: 6
   m_Name: Umbrella_Holder
   m_TagString: Untagged
@@ -520,6 +522,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0059092385, y: 0.00590924, z: 0.26864374}
   m_Center: {x: 0, y: 0, z: 0.13432187}
+--- !u!114 &7713955681758685983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4108570079782755820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: f2cfcc3d7012d2a43a8f045de723e78d, type: 3}
+--- !u!114 &6060316816379624280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4108570079782755820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
 --- !u!1 &4341734537534332579
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +733,8 @@ GameObject:
   - component: {fileID: 3498608662103961496}
   - component: {fileID: 7968181025618030868}
   - component: {fileID: 8178284378268026505}
+  - component: {fileID: 8149465444773420171}
+  - component: {fileID: 9205291293482105068}
   m_Layer: 6
   m_Name: Umbrella_Top
   m_TagString: Untagged
@@ -792,6 +829,39 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3760166407341403614, guid: 6fdacf07cbc156a43a943b3a307cdb99, type: 3}
+--- !u!114 &8149465444773420171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5739636026682230262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: dfb1c7d0dfe0dce4990f20858d46cdf8, type: 3}
+--- !u!114 &9205291293482105068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5739636026682230262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
 --- !u!1 &5826400589469423361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,6 +1544,8 @@ GameObject:
   - component: {fileID: 8443263413511596299}
   - component: {fileID: 8780731595445547921}
   - component: {fileID: 3392617418402628364}
+  - component: {fileID: 6725394320181029952}
+  - component: {fileID: 471261878993710471}
   m_Layer: 6
   m_Name: Umbrella_Base
   m_TagString: Untagged
@@ -1583,6 +1655,39 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.0050000004}
   m_TimeToStationary: 0.5
+--- !u!114 &6725394320181029952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8983207196926289927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: f2cfcc3d7012d2a43a8f045de723e78d, type: 3}
+--- !u!114 &471261878993710471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8983207196926289927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
 --- !u!1 &8995316023325933698
 GameObject:
   m_ObjectHideFlags: 0

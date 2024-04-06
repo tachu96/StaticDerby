@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 4501493071959881568}
   - component: {fileID: 3754614513173671645}
   - component: {fileID: 8436536564834632011}
+  - component: {fileID: 4069254413554414031}
+  - component: {fileID: 5417900709876649683}
   m_Layer: 6
   m_Name: CardboarBox002
   m_TagString: Untagged
@@ -153,3 +155,36 @@ LODGroup:
     renderers:
     - renderer: {fileID: 926673709026672050}
   m_Enabled: 1
+--- !u!114 &4069254413554414031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365263398069977126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: 4232e155419aea04cbffa6aa6166e202, type: 3}
+--- !u!114 &5417900709876649683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365263398069977126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
