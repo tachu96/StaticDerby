@@ -181,6 +181,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1006286327836548258}
+    - targetCorrespondingSourceObject: {fileID: -6835145513519587220, guid: a1445415906215d47842bb094b284c05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8404879450863062353}
+    - targetCorrespondingSourceObject: {fileID: -6835145513519587220, guid: a1445415906215d47842bb094b284c05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4983189486407472756}
     - targetCorrespondingSourceObject: {fileID: 5733715844621045505, guid: a1445415906215d47842bb094b284c05,
         type: 3}
       insertIndex: -1
@@ -274,3 +282,36 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2143044922154295681, guid: a1445415906215d47842bb094b284c05, type: 3}
+--- !u!114 &8404879450863062353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337472586276536951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: ee8b93f9dd1b2194e8080a5b6b0d9150, type: 3}
+--- !u!114 &4983189486407472756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8337472586276536951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
