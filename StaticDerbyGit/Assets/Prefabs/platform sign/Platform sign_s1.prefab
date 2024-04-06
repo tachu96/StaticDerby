@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2902818688526653568}
   - component: {fileID: 6948493855438681724}
   - component: {fileID: 1925985255926766417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,6 +208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform sign_s1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ca647669ef1e7445b708aff714a1a52,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -220,6 +225,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3769439008127372538}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6ca647669ef1e7445b708aff714a1a52,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 637371381557857398}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6ca647669ef1e7445b708aff714a1a52,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6446423662414076575}
   m_SourcePrefab: {fileID: 100100000, guid: 6ca647669ef1e7445b708aff714a1a52, type: 3}
 --- !u!1 &8241036577550285205 stripped
 GameObject:
@@ -248,6 +261,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6193396, y: 0.6027796, z: 0.06095133}
   m_Center: {x: 0, y: -4.3307095e-16, z: -0.030474667}
+--- !u!114 &637371381557857398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241036577550285205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: f2cfcc3d7012d2a43a8f045de723e78d, type: 3}
+--- !u!114 &6446423662414076575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241036577550285205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
 --- !u!4 &8725121428423369519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6ca647669ef1e7445b708aff714a1a52,
