@@ -324,6 +324,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5120440090009955090}
+    - targetCorrespondingSourceObject: {fileID: -4593130486874181694, guid: 1735457204f036840bd081cd4f0c2209,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7770757579134525627}
+    - targetCorrespondingSourceObject: {fileID: -4593130486874181694, guid: 1735457204f036840bd081cd4f0c2209,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 466429293165574188}
   m_SourcePrefab: {fileID: 100100000, guid: 1735457204f036840bd081cd4f0c2209, type: 3}
 --- !u!1 &647491903065407235 stripped
 GameObject:
@@ -472,6 +480,39 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8245426573784773463, guid: 1735457204f036840bd081cd4f0c2209, type: 3}
+--- !u!114 &7770757579134525627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4935065089246129552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClipToPlay","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: b7fd1767ef301fe4593c2a4aa071fe3e, type: 3}
+--- !u!114 &466429293165574188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4935065089246129552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: da578d3046dcc9c48817b382603eb5c3, type: 2}
 --- !u!23 &4980292834689728979 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 4692960093131522945, guid: 1735457204f036840bd081cd4f0c2209,
