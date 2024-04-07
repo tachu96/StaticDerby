@@ -2537,15 +2537,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6761226636982039661, guid: 887bb5db4130b304fad845cc2f368fab,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 637059183842786101}
-    - targetCorrespondingSourceObject: {fileID: 6761226636982039661, guid: 887bb5db4130b304fad845cc2f368fab,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4786378218802788481}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 887bb5db4130b304fad845cc2f368fab, type: 3}
 --- !u!4 &3953988511127052680 stripped
 Transform:
@@ -2559,36 +2551,3 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7409799318863834139}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &637059183842786101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4251493658621532278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Enemy","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 7814770819796993917}
---- !u!114 &4786378218802788481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4251493658621532278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: d49da28510324404f9e2e74a699d1bcc, type: 2}
