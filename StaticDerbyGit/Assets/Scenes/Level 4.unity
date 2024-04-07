@@ -58681,12 +58681,12 @@ PrefabInstance:
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000037219878
+      value: 0.0000000037219878
       objectReference: {fileID: 0}
     - target: {fileID: 904878544218796229, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 1.5683688e-10
+      value: -1.5683688e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1275936266440620103, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
@@ -58896,6 +58896,47 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6978789373781354466, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978789373781354466, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978789373781354466, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1990998000}
+    - target: {fileID: 6978789373781354466, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978789373781354466, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978789373781354466, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978789373781354466, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: WiringSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978789373781354466, guid: 9ce1a50cb7a98c04494d84384beced7e,
+        type: 3}
+      propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7364582128314104029, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -58949,12 +58990,12 @@ PrefabInstance:
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000037219878
+      value: 0.0000000037219878
       objectReference: {fileID: 0}
     - target: {fileID: 8446454336643842371, guid: 9ce1a50cb7a98c04494d84384beced7e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 1.5683686e-10
+      value: -1.5683686e-10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72318,6 +72359,18 @@ AudioSource:
     type: 3}
   m_PrefabInstance: {fileID: 1990997998}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1990998000 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3512891776820680654, guid: 8928ab514f002d641b34fc7225758b77,
+    type: 3}
+  m_PrefabInstance: {fileID: 1990997998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757041785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1993449378 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1113720828103844854, guid: c4852227bb70f884aadf514435205f01,
