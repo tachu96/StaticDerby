@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1303836142547215318}
-  - component: {fileID: 6865690498916202755}
   m_Layer: 0
   m_Name: Square Balcony
   m_TagString: Untagged
@@ -33,26 +32,6 @@ Transform:
   - {fileID: 1004583248933375525}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!205 &6865690498916202755
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 853431443640796593}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.020725965, y: -0.112969175, z: -0.7683525}
-  m_Size: 1.8692615
-  m_FadeMode: 1
-  m_AnimateCrossFading: 1
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.0792999
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 5027721250073992078}
-    - renderer: {fileID: 2739664298841232384}
-  m_Enabled: 1
 --- !u!1001 &754993235826715086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -276,18 +255,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 690106047850165013, guid: 6ae89d5006fb476419162b5c245a116e, type: 3}
---- !u!23 &2739664298841232384 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 3206413895380401614, guid: 6ae89d5006fb476419162b5c245a116e,
-    type: 3}
-  m_PrefabInstance: {fileID: 754993235826715086}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &5027721250073992078 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -3477821731311062464, guid: 6ae89d5006fb476419162b5c245a116e,
-    type: 3}
-  m_PrefabInstance: {fileID: 754993235826715086}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8608449561960884610 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -212481595636088756, guid: 6ae89d5006fb476419162b5c245a116e,

@@ -62,7 +62,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2862621726826008967}
-  - component: {fileID: 638300437403830997}
   m_Layer: 6
   m_Name: Rectangle Balcony (3 PC Rail)
   m_TagString: Untagged
@@ -90,26 +89,6 @@ Transform:
   - {fileID: 6321168045171449600}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!205 &638300437403830997
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2210567434550102308}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -1.620801, y: -0.1060268, z: 0.002878189}
-  m_Size: 3.3901052
-  m_FadeMode: 1
-  m_AnimateCrossFading: 1
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.0792999
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 3037503949530302680}
-    - renderer: {fileID: 2563424815257482118}
-  m_Enabled: 1
 --- !u!1 &3078375997025824137
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,18 +374,6 @@ PrefabInstance:
 --- !u!4 &1190253581847014769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dbce444c4ab94c04d91e349a620e70c2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1661291902355229338}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &2563424815257482118 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 3791192402829130012, guid: dbce444c4ab94c04d91e349a620e70c2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1661291902355229338}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &3037503949530302680 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 4407187375235809858, guid: dbce444c4ab94c04d91e349a620e70c2,
     type: 3}
   m_PrefabInstance: {fileID: 1661291902355229338}
   m_PrefabAsset: {fileID: 0}

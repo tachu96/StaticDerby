@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 668975080799698099}
   - component: {fileID: 1426501969998735777}
-  - component: {fileID: 5368500806845664411}
   m_Layer: 0
   m_Name: Semi Circle Balcony (2 Rail)
   m_TagString: Untagged
@@ -56,26 +55,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!205 &5368500806845664411
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5630699866606117011}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0.016350746, y: -0.08012444, z: -0.051146686}
-  m_Size: 3.4118478
-  m_FadeMode: 1
-  m_AnimateCrossFading: 1
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.0792999
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 2191959441059930426}
-    - renderer: {fileID: 8908908661376970037}
-  m_Enabled: 1
 --- !u!1001 &3473711543525399983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -239,12 +218,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7002171449534605598, guid: 866b4490a74fe4e49ab6b8598a8f023f, type: 3}
---- !u!23 &2191959441059930426 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 3341245691857058965, guid: 866b4490a74fe4e49ab6b8598a8f023f,
-    type: 3}
-  m_PrefabInstance: {fileID: 3473711543525399983}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4017108904868330052 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 866b4490a74fe4e49ab6b8598a8f023f,
@@ -307,9 +280,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 849032210722914114, guid: 866b4490a74fe4e49ab6b8598a8f023f, type: 3}
---- !u!23 &8908908661376970037 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 5447058701234417818, guid: 866b4490a74fe4e49ab6b8598a8f023f,
-    type: 3}
-  m_PrefabInstance: {fileID: 3473711543525399983}
-  m_PrefabAsset: {fileID: 0}
