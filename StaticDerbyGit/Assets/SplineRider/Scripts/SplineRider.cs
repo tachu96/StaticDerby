@@ -1,5 +1,6 @@
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.Splines;
 
@@ -13,6 +14,8 @@ public class SplineRider : MonoBehaviour
     [SerializeField] private Transform orientation;
 
     [Header("Values to set")]
+    public UnityEvent myEvent;
+
     [SerializeField] private LayerMask detectMask = default;
     [SerializeField] private float detectRadius = 0.5f;
     [SerializeField] private float jumpForceWire = 8f;
@@ -186,6 +189,12 @@ public class SplineRider : MonoBehaviour
             rb.isKinematic = true;
         IsRiding = true;
         EnteredSplineThisFrame = true;
+
+        //play sound effect
+        if (myEvent != null)
+        {
+            myEvent.Invoke();
+        }
     }
 
     private void CalculateSplinePosition()
@@ -217,6 +226,12 @@ public class SplineRider : MonoBehaviour
         var targetRot = Quaternion.Euler(0, rotY, 0);
         transform.rotation = targetRot;
         resettingRotation = true;
+
+        //triggering the sound effect
+        if (myEvent != null)
+        {
+            myEvent.Invoke();
+        }
     }
 
     private void CheckEnd()
@@ -246,5 +261,10 @@ public class SplineRider : MonoBehaviour
         var targetRot = Quaternion.Euler(0, rotY, 0);
         transform.rotation = targetRot;
         resettingRotation = true;
+        //triggering the sound effect
+        if (myEvent != null)
+        {
+            myEvent.Invoke();
+        }
     }
 }
