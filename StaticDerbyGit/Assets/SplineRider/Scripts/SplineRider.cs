@@ -193,6 +193,7 @@ public class SplineRider : MonoBehaviour
         //play sound effect
         if (myEvent != null)
         {
+            Debug.Log("Invoking wiring sfx");
             myEvent.Invoke();
         }
     }
@@ -230,6 +231,8 @@ public class SplineRider : MonoBehaviour
         //triggering the sound effect
         if (myEvent != null)
         {
+            Debug.Log("Invoking wiring sfx");
+
             myEvent.Invoke();
         }
     }
@@ -264,6 +267,8 @@ public class SplineRider : MonoBehaviour
         //triggering the sound effect
         if (myEvent != null)
         {
+            Debug.Log("Invoking wiring sfx");
+
             myEvent.Invoke();
         }
     }
