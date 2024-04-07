@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Cutscene Bars
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"d64a9c81-d89d-47b7-a6b0-a34b3c7e6c9f","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"Cutscene
+      Bars","$type":"System.String"}},"position":{"x":118.0,"y":-146.0},"guid":"77ebe073-6d56-424c-a4a5-22372c5da53c","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"defaultValues":{},"position":{"x":-14.0,"y":-46.0},"guid":"26b8ffee-2450-463a-a959-c7820e14b096","$version":"A","$type":"Unity.VisualScripting.This","$id":"13"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":416.0,"y":-144.0},"guid":"8ce74855-ef12-4ee6-808b-2e4e92719b53","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"372ffed9-7861-4ede-b164-c0e9c71ed910","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"assigned","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"f8e8fc95-a6ee-46d9-bffd-d07405e17931","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"self","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"75ec1f91-8329-4e94-bbf2-62fca6575c7a","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
